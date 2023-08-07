@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="theme-color" content="#BC8887" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sol & Matias</title>
+
+    <meta property="og:title" content="Sol y Matias - Sabado, 5 Abril 2024">
+    <meta property="og:description" content="Sol y Matias - Sabado, 5 Abril 2024">
+    <meta property="og:locale" content="id_ID" />
+    <meta property="og:image" content="https://sherly.dae.ng/image/sherly-daeng-wedding-thumbnail.png">
+    <meta property="og:url" content="http://sherly.dae.ng/index.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <!-- Bulma Version 0.8.x-->
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.8.0/css/bulma.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/bulma-tooltip@0.1.5/dist/bulma-tooltip.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/menikah.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.countdown.css" />
+    <script
+      src="https://kit.fontawesome.com/2828f7885a.js"
+      integrity="sha384-WAsFbnLEQcpCk8lM1UTWesAf5rGTCvb2Y+8LvyjAAcxK1c3s5c0L+SYOgxvc6PWG"
+      crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/jquery.coundown.js"></script>
+    <link rel="icon" type="image/png" href="image/favicon.png" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23064379-20"></script>
+    <!-- Begin Script for Countdown -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-23064379-20');
+    </script>
+    <!-- Begin Script for Countdown -->
+
+    <!-- Github Button -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+  </head>
+
+  <body>
+    <!-- Begin Preloader -->
+    <div class="preloader-wrapper">
+      <div class="preloader">
+        <img src="image/favicon.png" alt="Flower" />
+      </div>
+    </div>
+    <!-- End Preloader-->
+    <!-- Begin Header -->
+    <div class="header-wrapper" id="home">
+      <!-- Begin Hero -->
+      <section class="hero is-large">
+        <!-- Begin Mobile Nav -->
+        <nav class="navbar is-transparent is-hidden-desktop">
+          <!-- Begin Burger Menu -->
+          <div class="navbar-brand is-fixed-top bg-navbar">
+            <div class="navbar-burger burger" data-target="mobile-nav">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <!-- End Burger Menu -->
+          <div id="mobile-nav" class="navbar-menu">
+            <div class="navbar-end">
+              <div class="navbar-item">
+                <a class="navbar-item" href="#Waktu">
+                  Cuando es?
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="#lokasi">
+                  Ubicacion
+                </a>
+              </div>
+              
+              <div class="navbar-item">
+                <a class="navbar-item" href="#hoteles-cerca">
+                  Hospedaje Cerca
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="#rsvp">
+                  Confirmacion de asistencia
+                </a>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- End Mobile Nav -->
+        <!-- Begin Hero Content-->
+        <div class="hero-body">
+          <div class="container has-text-centered">
+            <h1 class="subtitle">Nos casamos!</h1>
+            <h2 class="title">Sol & Matias</h2>
+            <h4 class="subtitle tempatwaktu" style="font-size: 32px;">
+              
+            </br>
+            <br>
+          </br>
+          <br>
+          Sabado, 5 Abril 2024 
+          <br>
+
+                <a href="#rsvp" class="button has-tooltip btn-confirmar" data-tooltip="Add to Calendar" target="_blank" data-aos="zoom-in">
+                  &nbsp;&nbsp;Confirmar Asistencia
+                </a>
+            </h4>
+          </div>
+          <!-- Start Countdown -->       
+          <div>
+            <ul id="hitungmundur" >
+              <li><span class="days">00</span><p class="days_text">Dias</p></li>
+              <li class="separator">:</li>
+              <li><span class="hours">00</span><p class="hours_text">Horas</p></li>
+              <li class="separator">:</li>
+              <li><span class="minutes">00</span><p class="minutes_text">Minutos</p></li>
+              <li class="separator">:</li>
+              <li><span class="seconds">00</span><p class="seconds_text">Segundos</p></li>
+            </ul>
+            <div class="spasi">
+            </div>
+            <script type="text/javascript">
+              var now = new Date();
+              var day = now.getDate();
+              var month = now.getMonth() + 1;
+              var year = now.getFullYear() + 1;
+          
+              var nextyear = month + '/' + day + '/' + year + ' 07:07:07';
+              var harih = '04/05/2024 12:30:00';
+
+              $('#hitungmundur').countdown({
+                date: harih, // TODO Date format: 07/27/2017 17:00:00
+                offset: +7, // TODO Your Timezone Offset
+                day: 'Dia',
+                days: 'Dias'
+              }, function () {
+                alert('Done!');
+              });
+            </script>  
+          </div>
+          <!-- End Countdown -->
+        </div>
+        <!-- End Hero Content-->
+        <!-- Begin Hero Menu -->
+        <div class="hero-foot ">
+          <div class="hero-foot--wrapper">
+            <div class="columns">
+              <div class="column is-12 hero-menu-desktop has-text-centered">
+                <ul>
+                  <li class="is-active">
+                    <a href="#home">Home</a>
+                  </li>
+                  <li>
+                    <a href="#Waktu">Cuando es?</a>
+                  </li>
+                  <li>
+                    <a href="#lokasi">Ubicacion</a>
+                  </li>
+
+                  <li>
+                    <a href="#hoteles-cerca">Hospedaje cerca</a>
+                  </li>
+
+                  <li>
+                    <a href="#rsvp">Confirmacion de asistencia</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Hero Menu -->
+      </section>
+      <!-- End Hero -->
+    </div>
+    <!-- End Header -->
+
+    <!-- Begin Main Content -->
+    <div class="main-content">
+    <!-- Begin regular-section-->
+     <section class="section-light no-padding-top regular-section has-text-centered has-vertically-aligned-content" id="regular-section">
+
+       
+       <span class="space40px"></span>
+       <span class="space40px"></span>
+       
+       <div data-aos="fade-up" data-aos-easing="linear">
+         <div class="nama-lengkap" >
+           Sol  
+          </div>
+          <div class="ampersand">&</div>
+          <div class="nama-lengkap">
+            Matias
+          </div>
+          
+        </div>
+        <span class="space40px"></span>
+        <p class="bodytext" data-aos="fade-up" data-aos-easing="linear">
+          Andabamos sin buscarnos
+          <br />
+           pero sabiendo que andabamos
+          <br>
+          para encontrarnos..
+        </p>
+        <span class="space40px"></span>
+        <span class="space40px"></span>
+        <span class="space40px"></span>
+      </section>
+      <!-- End regular-section-->    
+      
+      <!-- Begin Waktu Section -->
+      <section class="section-light" id="Waktu">
+        <div class="container">
+
+          <div class="column is-12 regular-section" data-aos="fade-up" data-aos-easing="linear">
+            <h1 class="title has-text-centered section-title">Cuando</h1>
+          </div>
+          <div class="columns is-multiline" data-aos="fade-up" data-aos-easing="linear">
+            <div
+              class="column is-6 has-vertically-aligned-content">
+            
+              <p class="is-larger has-text-centered">
+                  <div class="waktu tanggal-hari has-text-centered">Sabado</div> 
+                  <div class="waktu tanggal-angka has-text-centered">5</div>
+                  <div class="waktu tanggal-bulan has-text-centered">Abril 2024</div>
+              </p>
+            
+            </div>
+            <div class="column is-6 has-vertically-aligned-content">
+            
+              <p class="waktu is-larger has-text-centered">
+                Ceremonia Civil:
+                <br>
+                <strong style="color: #2f5e63">12:30</strong>
+              </p>
+            
+            </div>
+
+            <!-- <div class="column is-4 has-vertically-aligned-content">
+              
+              <h1 class="waktu is-larger has-text-centered">
+                Al finalizar:
+                <br>
+                <strong>19.00  - 21.00 WIB</strong>
+              </h1>
+              
+              
+            </div> -->
+
+          </div>
+        </div>
+        <div class="space40px"></div>
+        <div class="main-content has-text-centered" data-aos="fade-up" data-aos-easing="linear">
+
+          <a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MnRzY29zajZtMDF0dTMxYzBpNzFudmJmdmggOTl1aXV2Y2t0N2Mwbzg1cDJsMzl0cWJtNHNAZw&tmsrc=99uiuvckt7c0o85p2l39tqbm4s%40group.calendar.google.com" target="_blank" class="button has-tooltip btn-cta" data-tooltip="Add to Calendar" target="_blank" data-aos="zoom-in">
+            <i class="far fa-calendar-plus"></i>
+            &nbsp;&nbsp;Google Calendar
+          </a>
+        </div>
+      </section>
+      <!-- End Waktu Content -->
+
+      <!-- Begin Lokasi Section -->
+      <section class="section-darker" id="lokasi" >
+        <div class="container">
+          <div class="column is-12 regular-section" data-aos="fade-up" data-aos-easing="linear">
+            <h1 class="title has-text-centered section-title">Ubicación</h1>
+            <br>
+            <h1 class="title has-text-centered section-title">Ceremonia civil</h1>
+            <p class="tempat is-larger has-text-centered">
+              <strong>La Casa de las Monjas</strong>
+              <br>
+              Av. Federico Leal Castaño, 41807 Espartinas, Sevilla
+              <br>
+            </p>
+          </div>
+
+          
+          <div class="section-map" data-aos="fade-up" data-aos-easing="linear">
+            <iframe src="https://www.google.com/maps/embed?" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+          <div class="space40px"></div>
+          <div class="has-text-centered" data-aos="fade-up" data-aos-easing="linear">
+            <a href="https://goo.gl/maps/" class="button btn-cta" target="_blank" data-aos="zoom-in">
+              <i class="far fa-directions"></i>
+              &nbsp;&nbsp;Google Maps
+            </a>
+          </div>
+        </div>
+          <br>
+          <br>
+        <div class="container">
+          <div class="column is-12 regular-section" data-aos="fade-up" data-aos-easing="linear">
+            <h2 class="title has-text-centered section-title">Al finalizar ceremonia</h2>
+            <p class="tempat is-larger has-text-centered">
+              <strong>casa</strong>
+              <br>
+              direccion, 41807 Espartinas - Códoba
+              <br>
+            </p>
+          </div>
+
+          <div class="section-map" data-aos="fade-up" data-aos-easing="linear">
+            <iframe src="https://www.google.com/maps/embed?pb=" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+          <div class="space40px"></div>
+          <div class="has-text-centered" data-aos="fade-up" data-aos-easing="linear">
+            <a href="https://goo.gl/maps/" class="button btn-cta" target="_blank" data-aos="zoom-in">
+              <i class="far fa-directions"></i>
+              &nbsp;&nbsp;Google Maps
+            </a>
+          </div>
+        </div>
+      </section>
+
+
+
+      <section class="section-dark contact" id="hoteles-cerca">
+        <div class="container is-justify-content-center" style="justify-content: center !important;">
+          <div class="is-justify-content-center	columns is-multiline" style="justify-content: center !important;">          
+            <div class="column is-12 prolog">
+              <h1 class="title has-text-centered section-title" data-aos="fade-up" data-aos-easing="linear">Hospedaje cerca</h1>
+            </div>
+            <div class="column is-12 prolog has-text-centered" data-aos="fade-up" data-aos-easing="linear"></div>
+     
+                <div class="columns" style="justify-content: center !important;">
+                  <div class="column has-text-centered is-6">
+                    <a href="https://www.google.com.ar/maps/search/hoteles+cerca+de" class="" data-tooltip="Add to Calendar" target="_blank" data-aos="zoom-in">
+                      &nbsp;&nbsp;<img class="hotel" id="hotel" src="./image/hotel.jpeg" alt="Hoteles Cerca">
+                      <p class="has-text-centered" for="hotel">Hospedaje en Hotel Cerca</p>
+                    </a>
+                  </div>
+  
+                  <div class="column has-text-centered is-6">
+                    <a href="https://www.airbnb.com" class="" data-tooltip="Add to Calendar" target="_blank" data-aos="zoom-in">
+                      &nbsp;&nbsp;<img  class="hotel" id="airbnb" src="./image/airbnb.png" alt="Airbnb Cerca">
+                      <p class="has-text-centered	" for="airbnb">Hospedaje Airbnb Cerca</p>
+                    </a>
+                  </div>
+                  </div>
+
+
+
+              <div class="space40px"></div>
+
+              <div class="space40px"></div>
+              
+
+            </div>
+ 
+         </div>
+        </div>
+      </section>
+      <!-- End Lokasi Content -->
+
+      <!-- Begin RSVP Content -->
+      <section class="section-dark contact m-4" id="rsvp">
+        <div class="container m-4">
+          <div class="columns is-multiline">          
+            <div class="column is-12 prolog">
+              <h1 class="title section-title has-text-centered" style="margin-top: 25px;" data-aos="fade-up" data-aos-easing="linear">CONFIRMACIÓN DE ASISTENCIA</h1>
+            </div>
+            <div class="column is-12 prolog has-text-centered" data-aos="fade-up" data-aos-easing="linear">
+              <p class="h2 subtitle">
+                Te esperamos el
+                <br>
+                <strong>sábado 5 Abril 2024 12:30h</strong>
+                <br>
+                En: <strong>salon casamientos</strong>
+                <br>
+                Luego de la ceremonia lo celebraremos en: <strong>direcion - Cordoba</strong>
+                <br>
+                <br>
+                Recorda Confirmar tu asistencia antes del <strong>20 de marzo</strong>!
+                <br>
+                <br>
+                Te invitamos a ¡Nuestra boda!
+                <br>
+                <br>
+                ¡Te esperamos!
+                </p>
+     
+                <a href="https://forms.gle/badXxrJYGpUnhjGZ9" class="button has-tooltip btn-cta" data-tooltip="Add to Calendar" target="_blank" data-aos="zoom-in">
+                  &nbsp;&nbsp;Confirmar Asistencia
+                </a>
+
+
+              <div class="space40px"></div>
+
+              <div class="space40px"></div>
+              
+
+            </div>
+ 
+         </div>
+        </div>
+      </section>
+      <!-- End RSVP Content -->
+    </div>
+    <!-- End Main Content -->
+
+    <!-- Begin Footer -->
+    <div class="footer">
+      <div class="container">
+        <a href="https://github.com/daengdoang/daeng-sherly-menikah" class="has-vertically-align">
+          <p class="has-vertically-align">2022 &copy Sol & Matias</p>
+        </a>
+      </div>
+    </div>
+    <!-- End Footer -->
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/menikah.js"></script>
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        easing: "ease-out",
+        duration: 800,
+      });
+    </script>
+  </body>
+</html>
