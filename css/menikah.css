@@ -8,6 +8,9 @@
 * {
   box-sizing: border-box;
 }
+.color-white{
+  color: whitesmoke !important;
+}
 
 html {
   font-family: "Raleway", Tahoma, sans-serif;
@@ -397,7 +400,7 @@ a {
   line-height: 25px;
   text-align: center;
   vertical-align: middle;
-  background: #c28285;
+  background: #2f5e63;
   color: whitesmoke;
 }
 
@@ -489,7 +492,7 @@ body.preloader-site {
 .preloader-wrapper {
   height: 100%;
   width: 100%;
-  background: #d8a9a8;
+  background: #2f5e63;
   position: fixed;
   top: 0;
   left: 0;
