@@ -50,6 +50,8 @@ html {
   }
 }
 
+
+
 .hero-body {
   /* background: linear-gradient(45deg, #100e0e, transparent); */
 }
@@ -221,7 +223,7 @@ html {
 }
 
 .main-content .section-light {
-  padding: 80px 40px;
+  padding: 80px 0px;
 }
 
 .main-content .section-light.regular-section {
@@ -369,6 +371,9 @@ a {
 
 .bodytext {
   font-size: 18px;
+  background-color: #2f5e63;
+  padding: 1.5em 0;
+  color: #fff;
 }
 
 .waktu {
