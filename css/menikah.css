@@ -533,11 +533,11 @@ body.preloader-site {
 }
 
 .btn-cta:hover {
-  color: white;
-  background-color: #bf7877;
+  color: #2f5e63;
+  background-color: whitesmoke;
   font-size: 1.2rem;
   border-radius: 10px;
-  border: 2px solid #bf7877;
+  border: 2px solid #2f5e63;
   width: 210px;
   height: 65px;
   align-items: center;
@@ -711,11 +711,10 @@ body.preloader-site {
   padding: 10px;
 }
 .btn-confirmar{
-  background-color: #2f5e63
-00;
+  background-color: #2f5e63;
   width: 210px;
   height: 65px;
-  color: #2f5e63 !important;
+  color: whitesmoke !important;
   font-size: 1.2rem;
   border: 2px solid #2f5e63 !important;
   border-radius: 10px;
@@ -723,10 +722,10 @@ body.preloader-site {
   margin: 1rem;
 }
 .btn-confirmar:hover{
-  background-color: #2f5e63 !important;
+  background-color: whitesmoke !important;
   width: 210px;
   height: 65px;
-  color: whitesmoke !important;
+  color: #2f5e63 !important;
   font-size: 1.2rem;
   border: 2px solid #2f5e63 !important;
   border-radius: 10px;
