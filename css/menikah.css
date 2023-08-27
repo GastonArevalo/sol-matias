@@ -1,4 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=Lato|Raleway|Rouge+Script");
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,300&display=swap');
+
+
+:root{
+  --primary-typography: 'Roboto', sans-serif;
+
+  --primary-color: "#305E63";
+  --secondary-color: "#7a7a7a"
+  
+}
+
 .has-vertically-aligned-content {
   display: flex;
   flex-direction: column;
@@ -30,9 +42,6 @@ html {
 ;
 }
 
-.a.navbar-item {
-  font-color: whitesmoke;
-}
 
 .hero {
   background-image: url(../image/SolyMatias.jpeg);
@@ -328,8 +337,9 @@ a {
   padding: 20px;
 }
 .section-title {
-  font-family: "Raleway", sans-serif;
-  font-weight: 900;
+  font-family:  var(--primary-typography);
+
+  font-weight: 400;
   color: #2f5e63
 ;
   text-transform: uppercase;
@@ -339,8 +349,8 @@ a {
 }
 
 .main-content .section-title {
-  font-family: "Raleway", sans-serif;
-  font-weight: 900;
+  font-family:  var(--primary-typography);
+  font-weight: 400;
   color: #2f5e63
 ;
   text-transform: uppercase;
@@ -393,6 +403,7 @@ a {
   font-size: 1.4rem;
   font-family: "Raleway", sans-serif;
   margin-bottom: 50px;
+  color: var(--secondary-color);
 }
 
 .has-vertically-align {
