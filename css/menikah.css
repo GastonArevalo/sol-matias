@@ -83,7 +83,7 @@ html {
 }
 
 .hero .tempatwaktu {
-  padding-top: 35px;
+  padding-top: 6rem;
   font-size: 1.3rem;
 }
 
@@ -374,6 +374,7 @@ a {
   background-color: #2f5e63;
   padding: 1.5em 0;
   color: #fff;
+  text-align: center;
 }
 
 .waktu {
